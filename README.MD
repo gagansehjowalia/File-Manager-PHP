@@ -1,48 +1,37 @@
-<h2>PHP File Manager with Password Protection</h2>
+# PHP File Manager with Password Protection
 
-Description
-
+## Description
 This is a simple yet secure PHP-based File Manager that allows users to upload files with a password. When downloading a file, users must enter the same password used during the upload process to access the file. This ensures an additional layer of security for file sharing.
 
-Features
+## Features
+- **Upload files with a password**
+- **Secure file download requiring password verification**
+- **Simple and user-friendly interface**
+- **Supports multiple file types**
+- **Prevents unauthorized access to uploaded files**
 
-Upload files with a password
+## Requirements
+- PHP 7.3 or higher
+- Apache/Nginx Server
+- Enabled file uploads in `php.ini`
 
-Secure file download requiring password verification
+## Usage
+1. **Upload Files**: Select a file, enter a password, and upload.
+2. **Download Files**: Enter the correct password to retrieve the file.
 
-Simple and user-friendly interface
+## Security Measures
+- **Password Hashing**: Prevents unauthorized access by securely storing passwords.
+- **Restricted Direct Access**: Uploaded files are stored securely and cannot be accessed directly.
+- **Input Validation and Sanitization**: Prevents malicious file uploads and XSS attacks.
 
-Supports multiple file types
+## Screenshots
+Screenshots of the application are available in the [GitHub repository](https://github.com/your-username/php-file-manager).
 
-Prevents unauthorized access to uploaded files
-
-
-PHP 7.3 or higher
-
-Apache/Nginx Server
-
-Enabled file uploads in php.ini
-
-Security Measures
-
-Password hashing to prevent unauthorized access
-
-Restricted direct access to uploaded files
-
-Input validation and sanitization
-
-Screenshots
-
-Screenshots of the application are available in the GitHub repository.
-
-Contributing
-
+## Contributing
 If you'd like to contribute, please fork the repository and submit a pull request.
 
-License
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-This project is licensed under the MIT License.
-
-Contact
-
-For any issues or feature requests, please create an issue on GitHub or contact me at gsehjowalia@gmail.com.
+## Contact
+For any issues or feature requests, please create an issue on GitHub or contact me at [gsehjowalia@gmail.com](mailto:gsehjowalia@gmail.com).
