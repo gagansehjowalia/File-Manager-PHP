@@ -1,4 +1,4 @@
-<h4>PHP File Manager with Password Protection</h4>
+<h2>PHP File Manager with Password Protection</h2>
 
 Description
 
