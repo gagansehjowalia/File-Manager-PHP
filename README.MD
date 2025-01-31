@@ -18,10 +18,6 @@ Prevents unauthorized access to uploaded files
 
 Installation
 
-Clone this repository or download the ZIP file.
-
-git clone https://github.com/your-username/php-file-manager.git
-
 Extract the files into your web server directory (e.g., htdocs for XAMPP, www for WAMP).
 
 Ensure the uploads directory has write permissions.
