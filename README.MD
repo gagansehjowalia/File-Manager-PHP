@@ -16,43 +16,8 @@ Supports multiple file types
 
 Prevents unauthorized access to uploaded files
 
-Installation
 
-Extract the files into your web server directory (e.g., htdocs for XAMPP, www for WAMP).
-
-Ensure the uploads directory has write permissions.
-
-chmod 777 uploads
-
-Start your local server (Apache with PHP support).
-
-Open the project in a web browser.
-
-Usage
-
-Uploading a File
-
-Navigate to the upload page.
-
-Select a file to upload.
-
-Enter a password to secure the file.
-
-Click the "Upload" button.
-
-The system generates a unique file link.
-
-Downloading a File
-
-Open the file download page.
-
-Enter the correct password used during upload.
-
-If the password matches, the file will be available for download.
-
-Requirements
-
-PHP 7.4 or higher
+PHP 7.3 or higher
 
 Apache/Nginx Server
 
